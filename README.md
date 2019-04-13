@@ -1,2 +1,2 @@
 # WebWithDjango
-##Recomended to install Beautify with vscode
+## Recomended to install Beautify with vscode
