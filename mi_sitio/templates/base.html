@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Lo anterior nos sirve para que se intente adaptar al movil-->
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"
     <title>
         {% block titulo %}
         {% endblock titulo %}
@@ -58,11 +59,44 @@
     {% endblock content %}
 
     <!--Footer-->
+    <footer class="fixed-bottom">
+        <div id="foot">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <h5>MAPA DEL SITIO ></h5>
+                    <ul>
+                        <li>Acerca de nosotros</li>
+                        <li>Inversionistas</li>
+                        <li>Noticias</li>
+                        <li>Ofertas Laborales</li>
+                        <li>Localiza tu tienda</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>¿NECESITAS AYUDA?</h5>
+                    <ul>
+                        <li>Chat en vivo</li>
+                        <li>Soporte via e-mail</li>
+                        <li>Soporte telefónico</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>CONÉCTATE A SAMSUNG</h5>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h6>Copyright© 1995-2019 SAMSUNG. Todos los derechos reservados.</h6>
+        </div>
+
+    </footer>
+    <!-- Termina el footer-->
 
 </body>
 <script src="{% static 'js/jquery'%}">
     < /script <
     script src = "{% static 'js/bootstrap.min.css'%}" >
 </script>
+
 
 </html>
